@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+:root {
+  --c13: #000000;
+  --c12: #292929;
+  --c11: #3d3d3d;
+  --c10: #525252;
+  --c8: #7a7a7a;
+  --c2: #f0f0f0;
+  --c1: #f9f9f9;
+  --c0: #fff;
+  --cP: #1399f8;
+}
+.c13 {
+  color: var(--c13);
+}
+.c12 {
+  color: var(--c12);
+}
+.c11 {
+  color: var(--c11);
+}
+.c10 {
+  color: var(--c10);
+}
+.c8 {
+  color: var(--c8);
+}
+.c2 {
+  color: var(--c2);
+}
+.c1 {
+  color: var(--c1);
+}
+.c0 {
+  color: var(--c0);
+}
+.cP {
+  color: var(--cP);
+}
+.font-g {
+  font: 400 4rem/1.3 "Lato";
+}
+.font-m {
+  font: 400 3rem/1.2 "Roboto";
+}
+.font-p {
+  font: 400 2rem/1.2 "Lato";
+}
+.paragrafo-g {
+  font: 400 1.25rem/1.13 "Roboto";
+}
+.paragrafo-m {
+  font: 400 1rem/1.2 "Roboto";
+}
+.paragrafo-p {
+  font: 400 0.875rem/1.2 "Roboto";
+}
+.font-subtitulo {
+  font: 600 1.25rem/1.13 "Roboto";
+}
+.font-subtitulo-p {
+  font: 600 1rem/1.2 "Roboto";
+}
+.link {
+  font: 400 1rem/1.2 "Roboto";
+  color: var(--cP);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
