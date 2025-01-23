@@ -56,16 +56,16 @@ a {
 .cP {
   color: var(--cP);
 }
-.f-xll {
+.font-introducao-grande {
   font: 400 4rem/1.3 "Lato";
 }
-.f-xl {
-  font: 400 3rem/1.2 "Roboto";
+.font-introducao-pequena {
+  font: 400 2rem/1.3 "Lato";
 }
 .f-x {
   font: 400 2rem/1.2 "Lato";
 }
-.f-g {
+.font-header-menu {
   font: 400 1.25rem/1.13 "Roboto";
 }
 .f-m {
@@ -124,7 +124,6 @@ a {
   text-transform: uppercase;
   text-decoration: underline;
 }
-
 .btn {
   background-color: var(--cP);
   color: var(--c0);
@@ -134,78 +133,23 @@ a {
 .btn:hover {
   background-color: #0087e7;
 }
-/* Ajustes responsivos */
-@media (max-width: 1200px) {
-  .f-xll {
-    font-size: 3.5rem;
-  }
-  .f-xl {
-    font-size: 2.5rem;
-  }
-  .f-x {
-    font-size: 1.75rem;
-  }
-  .f-g {
-    font-size: 1.125rem;
-  }
-  .f-m {
-    font-size: 0.9375rem;
-  }
-  .f-p {
-    font-size: 0.8125rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .btn {
-    padding: 8px 12px;
-  }
-  .f-xll {
-    font-size: 3rem;
-  }
-  .f-xl {
-    font-size: 2rem;
-  }
-  .f-x {
-    font-size: 1.5rem;
-  }
-  .f-g {
+@media (max-width: 1024px) {
+  .font-header-menu {
     font-size: 1rem;
   }
-  .f-m {
-    font-size: 0.875rem;
+  .font-introducao-grande {
+    font: 400 3rem/1.3 "Lato";
   }
-  .f-p {
-    font-size: 0.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .btn {
-    padding: 6px 10px;
-  }
-  .f-xll {
-    font-size: 2.5rem;
-  }
-  .f-xl {
-    font-size: 1.75rem;
-  }
-  .f-x {
-    font-size: 1.25rem;
-  }
-  .f-g {
-    font-size: 0.875rem;
-  }
-  .f-m {
-    font-size: 0.8125rem;
-  }
-  .f-p {
-    font-size: 0.75rem;
+  .font-introducao-pequena {
+    font: 400 1.25rem/1.3 "Lato";
   }
 }
-
-@media (max-width: 1200px) {
-  .container {
-    margin: 0 20px;
+@media (max-width: 767px) {
+  /* Estilos para smartphones */
+  .font-introducao-grande {
+    font: 400 2rem/1.3 "Lato";
+  }
+  .font-introducao-pequena {
+    font: 400 1.25rem/1.3 "Lato";
   }
 }

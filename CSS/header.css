@@ -1,8 +1,10 @@
 .header {
-  padding-top: 40px;
+  margin-top: 40px;
+  padding: 0 20px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto auto;
   align-items: center;
+  margin-bottom: 120px;
 }
 .header-menu,
 .header-menu ul {
@@ -13,7 +15,6 @@
 }
 .menu {
   position: relative;
-  padding: 5px;
 }
 .menu::after {
   position: absolute;
@@ -28,49 +29,32 @@
 .menu:hover::after {
   width: 100%;
 }
-@media (max-width: 1200px) {
+.hamburguer-ativo {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  /* Estilos para tablets */
   .header {
-    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 20px;
   }
   .header-menu,
   .header-menu ul {
     gap: 20px;
   }
 }
-@media (max-width: 900px) {
-  .header {
-    gap: 20px 0;
-  }
-  .header img,
-  .header-menu {
-    grid-column: 1/-1;
-    justify-self: center;
-    gap: 100px;
-  }
-}
-@media (max-width: 768px) {
-  .header-menu {
-    display: grid;
-    gap: 10px;
-    ul {
-      justify-content: center;
-    }
-  }
-  .menu {
-    background-color: #e7f5fe;
-    border-radius: 6px;
-    padding: 10px 15px;
-  }
-  .menu:hover {
-    background-color: #d0eafa;
-  }
-  .menu {
-    padding: 8px 12px;
-  }
-}
 
-@media (max-width: 480px) {
-  .menu {
-    padding: 6px 10px;
+@media (max-width: 767px) {
+  /* Estilos para smartphones */
+  .header {
+    justify-content: space-between;
+  }
+  .hamburguer {
+    display: none;
+  }
+  .hamburguer-ativo {
+    display: block;
+    justify-items: end;
   }
 }
