@@ -81,6 +81,18 @@ a {
 .font-celular-sub-p {
   font: 400 0.875rem/1.2 "Roboto";
 }
+.font-vantagens-t {
+  font: 400 1rem/1.2 "Roboto";
+}
+.font-vantagens-p {
+  font: 400 0.875rem/1.2 "Roboto";
+}
+.font-link {
+  font: 400 1rem/1.2 "Roboto";
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--cP);
+}
 .btn {
   background-color: var(--cP);
   color: var(--c0);
