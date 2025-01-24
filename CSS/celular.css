@@ -40,8 +40,12 @@
 @media (max-width: 767px) {
   .celular {
     grid-template-columns: 1fr;
-    .celular-info {
-      grid-row: 1;
+  }
+  .celular-lista {
+    li {
+      img {
+        display: none;
+      }
     }
   }
 }

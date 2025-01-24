@@ -59,6 +59,7 @@ a {
 }
 .cP {
   color: var(--cP);
+  font-weight: 600;
 }
 .font-header-menu {
   font: 400 1.25rem/1.13 "Roboto";
@@ -93,6 +94,20 @@ a {
   text-decoration: underline;
   color: var(--cP);
 }
+.font-duvida-t {
+  font: 400 3rem/1.2 "Roboto";
+}
+.font-duvida-p {
+  font: 400 1.25rem/1.2 "Roboto";
+}
+.font-pergunta {
+  font: 600 1.5rem/1.2 "Roboto";
+  color: var(--c10);
+}
+.font-resposta {
+  font: 400 1.25rem/1.2 "Roboto";
+  color: var(--c8);
+}
 .btn {
   background-color: var(--cP);
   color: var(--c0);
@@ -102,6 +117,7 @@ a {
 .btn:hover {
   background-color: #0087e7;
 }
+
 @media (max-width: 1024px) {
   .font-header-menu {
     font-size: 1rem;
@@ -143,6 +159,13 @@ a {
     font: 600 1rem/1.2 "Roboto";
   }
   .font-celular-sub-p {
-    font: 400 0.625rem/1.2 "Roboto";
+    font: 400 0.875rem/1.2 "Roboto";
+  }
+
+  .font-duvida-t {
+    font: 400 1.5rem/1.2 "Roboto";
+  }
+  .font-duvida-p {
+    font: 400 1rem/1.2 "Roboto";
   }
 }
