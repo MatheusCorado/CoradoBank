@@ -5,22 +5,27 @@
   gap: 60px;
   padding: 0 20px;
   margin-bottom: 120px;
-  h1 {
-    margin-bottom: 10px;
-  }
-  span {
-    font-weight: 600;
-  }
 }
+
+.introducao h1 {
+  margin-bottom: 10px;
+}
+
+.introducao span {
+  font-weight: 600;
+}
+
 .introducao-info {
   display: grid;
   place-items: start;
 }
+
 .ver-mais {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 @media (max-width: 1024px) {
   .introducao {
     margin-bottom: 80px;

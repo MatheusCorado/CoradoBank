@@ -1,32 +1,36 @@
 .vantagens-bg {
   background: #e7f5fe;
 }
+
 .vantagens {
   padding: 0 20px;
   padding-bottom: 60px;
-  h1 {
-    padding: 60px 0;
-  }
+}
+
+.vantagens h1 {
+  padding: 60px 0;
 }
 
 .vantagens-lista {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  li {
-    background-color: var(--c0);
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 6px;
-  }
 }
+
+.vantagens-lista li {
+  background-color: var(--c0);
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
 @media (max-width: 1024px) {
   .vantagens-lista {
     grid-template-columns: repeat(3, 1fr);
-    span {
-      display: none;
-    }
+  }
+  .vantagens-lista span {
+    display: none;
   }
 }
 
